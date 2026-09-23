@@ -1,0 +1,114 @@
+.council-shell{--ain-black:#fbfdfb;--ain-panel:#fff;--ain-line:#e6ece8;--ain-text:#302a36;--ain-muted:#74757d;--ain-green:#00b86f;--ain-purple:#7864ed;--c-bg:#f7f9f7;--c-panel:#fff;--c-panel-soft:#f5f9f6;--c-border:#e4eae5;--c-text:#302a36;--c-muted:#767780;--c-lime:#00b86f;--c-teal:#238e77;min-height:100vh;background:radial-gradient(ellipse at 69% 13%,#e8f8ef 0,transparent 35%),#fcfdfc;color:#302a36;color-scheme:light}
+.ain-nav-shell{border-color:#e4e9e5;background:#ffffffed;box-shadow:0 10px 32px #293d3210}
+.ain-brand,.ain-brand>span{color:#302a36}
+.ain-brand>span{color:#302a36}
+.ain-brand>span small{color:#888b91}
+.ain-language,.ain-menu-button{border-color:#e0e6e2;background:#fff;color:#42434b}
+.ain-language:hover,.ain-menu-button:hover{border-color:#b9d9c4;background:#f7fbf8}
+.ain-hero:before{background:radial-gradient(ellipse at 73% 47%,#ddf5e6 0,transparent 41%)}
+.ain-hero-copy h1{color:#302a36}
+.ain-hero-copy h1 em{color:#00b86f;text-shadow:none}
+.ain-hero-copy>p{color:#72737b}
+.ain-overline,.ain-hero-caption{color:#7d7f86}
+.ain-overline>b,.ain-hero-caption>b{color:#a8aaae}
+.ain-start-button{background:linear-gradient(110deg,#00b86f,#06a96a);color:#fff;box-shadow:0 7px 24px #00b86f27}
+.ain-start-button:hover{box-shadow:0 10px 30px #00b86f3d}
+.ain-text-link{color:#55565e}
+.ain-text-link:hover{color:#078754}
+.ain-art-glow{background:#00b86f20}
+.ain-art-backplate{background:linear-gradient(135deg,#91edb2 0,#00b86f 64%,#7f70ee 100%);box-shadow:0 14px 55px #00b86f24}
+.ain-hero-stat{border-color:#ffffff;background:#ffffffed;box-shadow:0 14px 36px #233a2c1a}
+.ain-hero-stat small{color:#777981}
+.ain-hero-stat strong{color:#302a36}
+.ain-hero-stat strong i{color:#00a968}
+.ain-hero-stat>span{color:#7a7c83}
+.ain-art-status{border-color:#ffffff;background:#ffffffed;color:#55575f;box-shadow:0 7px 24px #233a2c12}
+.ain-art-status b{color:#078754}
+.ain-hero-tabs{border-color:#e4e9e5}
+.ain-hero-tabs button{border-color:transparent;background:transparent;color:#81838a}
+.ain-hero-tabs button:hover,.ain-hero-tabs button[aria-selected="true"]{color:#302a36}
+.ain-hero-tabs button[aria-selected="true"]:after{background:#00b86f}
+.ain-hero-tabs button>b{color:#302a36}
+.ain-hero-tabs button>small{color:#85878d}
+.ain-scroll-hint{color:#7c7e85}
+.ain-scroll-hint>span{border-color:#00b86f}
+.council-workspace{border-top-color:#e8ece9}
+.council-kicker{color:#7b7d84}
+.council-section-head h2,.council-result-title h2,.council-explanation h2,.council-empty-result h2,.ain-advisor-heading h2{color:#302a36}
+.council-section-head h2,.council-result-title h2,.ain-advisor-heading h2{font-weight:650}
+.council-reset{border-color:#dfe6e1;background:#fff;color:#56575f}
+.council-reset:hover{border-color:#aed9bc;background:#f4faf6}
+.council-builder-grid{gap:14px}
+.council-domain{border-color:#e2e9e4;background:#fff;box-shadow:0 12px 34px #273b2d09}
+.council-domain:hover{border-color:#b5dac1;box-shadow:0 16px 36px #273b2d13}
+.council-domain>header{border-bottom-color:#edf0ed}
+.council-domain>header strong{color:#302a36}
+.council-domain>header small{color:#82848b}
+.council-domain-icon{background:color-mix(in srgb,var(--domain-color) 11%,#fff)}
+.council-initiative:hover{background:#f5faf6}
+.council-initiative.is-selected{background:color-mix(in srgb,var(--domain-color) 7%,#fff)}
+.council-initiative-toggle{color:#302a36}
+.council-check{border-color:#cbd3ce;color:#fff}
+.council-initiative-copy strong{color:#393841}
+.council-initiative-copy small,.council-scope{color:#787a82}
+.council-budget-panel{border-color:#dbece0;background:linear-gradient(110deg,#f2fbf5,#fff 72%)}
+.council-budget-copy .council-kicker{color:#727b75}
+.council-budget-copy>strong{color:#078754}
+.council-budget-copy>strong small,.council-budget-copy>span:last-child{color:#777981}
+.council-budget-meter{background:#e7eee9}
+.council-budget-meter>span{background:linear-gradient(90deg,#00b86f,#8bdb66)}
+.council-validation{color:#73767d}
+.council-validation.is-valid{color:#078754}
+.council-validation.has-error{color:#be4c46}
+.council-result-title p{color:#767880}
+.council-score-card{border-color:#00b86f;background:linear-gradient(125deg,#087849,#064c37 70%,#124534)}
+.council-score-card>strong{color:#b7f4cc}
+.council-score-card>span{color:#e1f6e8}
+.council-stat-card{border-color:#e3e9e5;background:#fff;box-shadow:0 10px 26px #283a2d08}
+.council-stat-card>small{color:#7c7f86}
+.council-stat-card>strong{color:#302a36}
+.council-stat-card>span{color:#777981}
+.council-formula{border-color:#dcebe1;background:#f5faf6;color:#078754}
+.council-formula strong{color:#34333b}
+.council-formula p{color:#686a72}
+.council-district-card{border-color:#e2e8e4;background:#fff}
+.council-district-card[open]{border-color:#00b86f}
+.council-district-card.is-weakest{border-color:#d9bf7b}
+.council-district-card>summary>span>strong{color:#302a36}
+.council-district-card>summary>span>small{color:#7b7d85}
+.council-district-card>summary>span>em{color:#078754}
+.council-indicator{border-top-color:#e9edeb}
+.council-indicator>div:first-child>span{color:#078754}
+.council-indicator>div:first-child>small{color:#65676f}
+.council-indicator>div:first-child>b{color:#393841}
+.council-indicator-track{background:#e7ede9}
+.council-indicator-track>span{background:linear-gradient(90deg,#00b86f,#8bdb66)}
+.council-indicator>em{color:#777981}
+.council-explanation{border-color:#dcebe1;background:linear-gradient(110deg,#f1faf4,#fbfdfb)}
+.council-explanation-icon{background:#e2f6e9;color:#078754}
+.council-explanation h2{color:#302a36}
+.council-explanation p{color:#676970}
+.council-empty-result{border-color:#d8e6dc;background:#fff}
+.council-empty-score{color:#128253}
+.council-empty-result p{color:#767880}
+.ain-advisor-heading>p{color:#73757d}
+.ain-advisor-card{border-color:#e2e9e4;background:#fff;box-shadow:0 10px 26px #273b2d08}
+.ain-agent-avatar{background:color-mix(in srgb,var(--domain-color) 10%,#fff)}
+.ain-agent-avatar>span{color:#82848b}
+.ain-agent-copy>small{color:#787b82}
+.ain-agent-copy>strong{color:#078754}
+.ain-agent-copy>strong em{color:#73767d}
+.ain-agent-copy>p{color:#686a72}
+.ain-akim-verdict{border-color:#b9dfc6;background:linear-gradient(110deg,#eff9f2,#fbfdfb)}
+.ain-akim-mark{background:#00b86f;color:#fff}
+.ain-akim-verdict .ain-overline{color:#168352}
+.ain-akim-verdict p{color:#45464e}
+.ain-verdict-link{color:#078754}
+.council-footer{border-top-color:#e5eae6}
+.council-footer p,.council-footer>span{color:#777981}
+.council-footer>span i{color:#00b86f}
+.ain-nav-links.is-open{border-color:#e3e9e5;background:#fff;box-shadow:0 14px 32px #24392d14}
+.ain-nav-links.is-open a{color:#4d4e56}
+.ain-nav-links.is-open a:hover{color:#078754}
+@media(max-width:700px){.council-shell{background:#fcfdfc}.ain-nav-shell{background:#ffffffed}.ain-hero-copy h1{color:#302a36}.ain-hero-copy>p{color:#72737b}.council-domain>header strong{font-size:11px}.council-budget-panel{border-color:#dbece0}.council-stat-card{background:#fff}.council-formula{background:#f5faf6}.ain-advisor-card{background:#fff}}
+@media(prefers-reduced-motion:reduce){.council-shell *{scroll-behavior:auto!important;transition:none!important}}
